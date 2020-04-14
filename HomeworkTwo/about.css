@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg) no-repeat;
+    background-size: cover;
+}
+/* Box with Letter Detail*/
+.box {
+    width: 450px;
+    background: white;
+    opacity: 74%;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+
+/* The Box Picture */
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+}
+
+h5 {
+    padding: 15px;
+}
+
+a {
+    font-size: 21px;
+}
+
+.w3-bar {
+    font-family: 'Bebas Neue', cursive;
+}
+
+li {
+    font-family: 'Bebas Neue', cursive;
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background-image: url(https://i.redd.it/ihoxdlxnodpy.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    padding: 14px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.4s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: turquoise;
+}
+    
+
+.logo {
+    float: left;
+    height: auto;
+    
+}
+
+.main {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title h1{
+    color: white;
+    font-size: 80px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bn {
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.bn:hover {
+    background-color: white;
+    color: turquoise;
+}
+
